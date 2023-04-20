@@ -1,0 +1,757 @@
+.wd-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke-200);
+  position: absolute;
+  top: 597px;
+  left: 9px;
+  border-radius: var(--br-lgi);
+  width: 204px;
+  height: 41px;
+}
+.aditional-links7 {
+  position: absolute;
+  top: 740px;
+  left: 14px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkblue);
+  text-align: center;
+  display: inline-block;
+  width: 187px;
+  height: 29px;
+  text-decoration: none;
+}
+.wd-inner,
+.wd-item {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-lgi);
+}
+.wd-item {
+  left: 225px;
+  background-color: var(--color-whitesmoke-100);
+  width: 969px;
+  height: 58px;
+}
+.wd-inner {
+  left: 0;
+  width: 230px;
+  height: 214px;
+  object-fit: cover;
+}
+.frame-child66 {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 0;
+  right: 28px;
+  left: -4px;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  height: 178px;
+}
+.div2,
+.prevalence-global7 {
+  position: absolute;
+  font-weight: 600;
+}
+.prevalence-global7 {
+  top: 10px;
+  left: 8px;
+  display: inline-block;
+  width: 269px;
+  height: 30px;
+}
+.div2 {
+  top: 86px;
+  left: 97px;
+  font-size: var(--font-size-13xl);
+  text-align: center;
+}
+.frame-parent25 {
+  position: absolute;
+  top: 72px;
+  left: 499px;
+  width: 245px;
+  height: 172px;
+  font-size: var(--font-size-xl);
+}
+.frame-child67 {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 0;
+  right: 24px;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  height: 178px;
+}
+.a3 {
+  position: absolute;
+  top: 86px;
+  left: 21px;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  color: inherit;
+  text-align: center;
+  display: inline-block;
+  width: 178px;
+  text-decoration: none;
+}
+.frame-parent26 {
+  position: absolute;
+  top: 72px;
+  left: 255px;
+  width: 245px;
+  height: 172px;
+  font-size: var(--font-size-xl);
+}
+.frame-child68 {
+  position: absolute;
+  width: calc(100% - 26px);
+  top: 0;
+  right: 37px;
+  left: -11px;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  height: 178px;
+}
+.chromosome-10,
+.cytogenetic-location7 {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.cytogenetic-location7 {
+  top: 17px;
+  left: -8px;
+  width: 282px;
+  height: 31px;
+}
+.chromosome-10 {
+  top: 86px;
+  left: -23px;
+  font-size: var(--font-size-13xl);
+  text-align: center;
+  width: 245px;
+}
+.frame-parent27 {
+  position: absolute;
+  top: 72px;
+  left: 978px;
+  width: 247px;
+  height: 172px;
+  font-size: var(--font-size-xl);
+}
+.frame-child69 {
+  position: absolute;
+  width: calc(100% - 26px);
+  top: 0;
+  right: 20px;
+  left: 6px;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-200);
+  height: 178px;
+}
+.genes7,
+.lipa {
+  position: absolute;
+  display: inline-block;
+  font-weight: 600;
+}
+.genes7 {
+  top: 18px;
+  left: 77px;
+  width: 233px;
+  height: 30px;
+}
+.lipa {
+  top: 89px;
+  left: 16px;
+  font-size: var(--font-size-13xl);
+  font-style: italic;
+  color: inherit;
+  text-align: center;
+  width: 192px;
+  text-decoration: none;
+}
+.frame-parent28 {
+  position: absolute;
+  top: 72px;
+  left: 723px;
+  width: 247px;
+  height: 172px;
+  font-size: var(--font-size-xl);
+}
+.wd-child1 {
+  position: absolute;
+  top: 261px;
+  left: 254px;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-lavender-100);
+  width: 935px;
+  height: 520px;
+}
+.current-therapeutics7,
+.science-of-diagnosis7 {
+  position: absolute;
+  top: 589px;
+  left: 914px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 300px;
+  height: 35px;
+}
+.current-therapeutics7 {
+  top: 276px;
+  left: 900px;
+  color: inherit;
+  text-decoration: none;
+}
+.wd-child2 {
+  position: absolute;
+  top: 794px;
+  left: 255px;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-lavender-100);
+  width: 596px;
+  height: 109px;
+}
+.image-17 {
+  text-decoration: none;
+  position: absolute;
+  top: 62px;
+  left: 20px;
+  width: 184px;
+  height: 90px;
+  background-image: url(./public/image-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.age-of-onset8,
+.clinical-symptoms7,
+.current-diagnostics7 {
+  position: absolute;
+  top: 818px;
+  left: 279px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 572px;
+  height: 63px;
+}
+.clinical-symptoms7,
+.current-diagnostics7 {
+  top: 275px;
+  left: 276px;
+  font-size: var(--font-size-3xl);
+  color: inherit;
+  width: 273px;
+  height: 34px;
+  text-decoration: none;
+}
+.clinical-symptoms7 {
+  left: 592px;
+  width: 230px;
+  height: 35px;
+}
+.dashboard-icon36 {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.blood-disorder11 {
+  position: relative;
+  font-weight: 600;
+}
+.dashboard36 {
+  text-decoration: none;
+  position: absolute;
+  top: 253px;
+  left: 29px;
+  width: 171px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-darkblue);
+}
+.storage-disorder11 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 152px;
+  flex-shrink: 0;
+}
+.dashboard37 {
+  text-decoration: none;
+  position: absolute;
+  top: 313px;
+  left: 29px;
+  width: 129px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-darkblue);
+}
+.musclemovement-neurodegener9 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 165px;
+  flex-shrink: 0;
+}
+.dashboard38 {
+  text-decoration: none;
+  position: absolute;
+  top: 375px;
+  left: 29px;
+  width: 167px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-darkblue);
+}
+.frame-child70 {
+  border: 0;
+  background-color: var(--color-lavender-100);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  width: 324px;
+  height: 106px;
+}
+.resources18 {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 119px;
+  text-decoration: none;
+}
+.rectangle-parent22 {
+  position: absolute;
+  top: 794px;
+  left: 865px;
+  width: 286px;
+  height: 146px;
+  font-size: var(--font-size-xl);
+}
+.dashboard39 {
+  text-decoration: none;
+  position: absolute;
+  top: 475px;
+  left: 31px;
+  width: 167px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-darkblue);
+}
+.frame-child71 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  width: 231px;
+  height: 236px;
+  object-fit: cover;
+}
+.online-mendelian-inheritance7 {
+  margin: 0;
+  padding-left: var(--padding-base);
+}
+.online-mendelian-inheritance-container7,
+.organization-for-rare-container7 {
+  text-decoration: none;
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 208px;
+  height: 30px;
+}
+.organization-for-rare-container7 {
+  top: 68px;
+  width: 183px;
+}
+.indian-policy-for-container8,
+.indian-society-of-container8 {
+  text-decoration: none;
+  position: absolute;
+  top: 186px;
+  left: 12px;
+  font-weight: 600;
+  color: var(--color-whitesmoke-200);
+  display: inline-block;
+  width: 219px;
+}
+.indian-society-of-container8 {
+  top: 124px;
+  left: 10px;
+  height: 41px;
+}
+.rectangle-parent23 {
+  position: absolute;
+  top: 782px;
+  left: 10px;
+  width: 231px;
+  height: 255px;
+  font-size: var(--font-inherit);
+  color: var(--color-lavender-200);
+  font-family: var(--font-inherit);
+}
+.body-removebg-preview-icon6 {
+  position: absolute;
+  top: 298px;
+  left: 621px;
+  width: 184px;
+  height: 484px;
+  object-fit: cover;
+}
+.wd-child3 {
+  position: absolute;
+  top: 906px;
+  left: 865px;
+  width: 275px;
+  height: 81px;
+}
+.resources-child10 {
+  border: 0;
+  background-color: var(--color-lavender-100);
+  position: absolute;
+  top: -17px;
+  left: 0;
+  border-radius: var(--br-lgi);
+  width: 324px;
+  height: 104px;
+}
+.mutations7 {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  font-weight: 600;
+  display: inline-block;
+  width: 119px;
+  height: 22.04px;
+}
+.resources19 {
+  position: absolute;
+  top: 930px;
+  left: 865px;
+  width: 324px;
+  height: 118px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.frame-child72,
+.frame-child73 {
+  text-decoration: none;
+  position: absolute;
+  top: -81px;
+  left: -37px;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-lavender-100);
+  width: 595px;
+  height: 48px;
+}
+.frame-child73 {
+  top: -24px;
+}
+.rectangle-parent24 {
+  position: absolute;
+  top: 995px;
+  left: 293px;
+  width: 347px;
+  height: 47px;
+}
+.vector-icon139,
+.vector-icon140,
+.vector-icon141 {
+  position: absolute;
+  height: 74.26%;
+  width: 74.26%;
+  top: 19.12%;
+  right: 19.12%;
+  bottom: 6.62%;
+  left: 6.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon140,
+.vector-icon141 {
+  height: 36.76%;
+  width: 36.76%;
+  top: 6.62%;
+  right: 6.62%;
+  bottom: 56.62%;
+  left: 56.62%;
+}
+.vector-icon141 {
+  height: 57.6%;
+  width: 57.6%;
+  bottom: 35.79%;
+  left: 35.78%;
+}
+.external-link46,
+.management9 {
+  text-decoration: none;
+  position: absolute;
+}
+.external-link46 {
+  top: 986px;
+  left: 445px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.management9 {
+  top: 978px;
+  left: 279px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 410.52px;
+}
+.vector-icon144 {
+  position: absolute;
+  height: 57.6%;
+  width: 57.6%;
+  top: 6.62%;
+  right: 6.62%;
+  bottom: 35.78%;
+  left: 35.78%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.external-link47,
+.recent-research7 {
+  text-decoration: none;
+  position: absolute;
+}
+.external-link47 {
+  top: 933px;
+  left: 479px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.recent-research7 {
+  top: 921px;
+  left: 282px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  width: 410.52px;
+}
+.wd-child4 {
+  border: 0;
+  background-color: var(--color-lavender-100);
+  position: absolute;
+  top: 1028px;
+  left: 865px;
+  border-radius: var(--br-lgi);
+  width: 324px;
+  height: 48px;
+}
+.external-link48,
+.external-link49,
+.external-link50,
+.external-link51 {
+  text-decoration: none;
+  position: absolute;
+  top: 283px;
+  left: 506px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.external-link49,
+.external-link50,
+.external-link51 {
+  left: 805px;
+}
+.external-link50,
+.external-link51 {
+  top: 284px;
+  left: 1145px;
+}
+.external-link51 {
+  top: 597px;
+  left: 1149px;
+}
+.tata-institute-for8 {
+  position: absolute;
+  top: 1120px;
+  left: 436px;
+  font-size: var(--font-size-base);
+  color: inherit;
+  text-align: center;
+  display: inline-block;
+  width: 415px;
+  text-decoration: none;
+}
+.samruddhi-walaskar8 {
+  color: var(--color-darkblue);
+}
+.designed-by-samruddhi-container8,
+.supervised-by-dr-container8 {
+  top: 1117px;
+  font-size: var(--font-size-base);
+  text-align: center;
+  display: inline-block;
+  color: inherit;
+}
+.designed-by-samruddhi-container8 {
+  text-decoration: none;
+  position: absolute;
+  left: -30px;
+  width: 367px;
+}
+.supervised-by-dr-container8 {
+  left: 851px;
+  width: 392px;
+}
+.external-link52,
+.gentigs7,
+.supervised-by-dr-container8 {
+  text-decoration: none;
+  position: absolute;
+}
+.external-link52 {
+  top: 22px;
+  left: 556px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.gentigs7 {
+  top: -6px;
+  left: 213px;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  width: 148px;
+  height: 32px;
+}
+.gentigs-frame {
+  position: absolute;
+  top: 1037px;
+  left: 755px;
+  width: 385px;
+  height: 65px;
+  font-size: var(--font-size-13xl);
+}
+.cystic-fibrosis1,
+.fanconi-anaemia1 {
+  text-decoration: none;
+  position: absolute;
+  top: 525px;
+  left: 53px;
+  font-weight: 600;
+  color: inherit;
+}
+.fanconi-anaemia1 {
+  top: 568px;
+  left: 48px;
+}
+.hypophosphatasia2,
+.wolman-disease1 {
+  position: absolute;
+  top: 607px;
+  left: 48px;
+  font-weight: 600;
+}
+.hypophosphatasia2 {
+  text-decoration: none;
+  top: 650px;
+  left: 45px;
+  color: inherit;
+}
+.sebelipase-alfaert-and,
+.wolman-disease2 {
+  position: absolute;
+  top: 316px;
+  left: 907px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 257px;
+}
+.wolman-disease2 {
+  text-decoration: none;
+  top: 7px;
+  left: 258px;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+  color: inherit;
+  width: 570px;
+}
+.a-diagnosis-may1,
+.httpsrarediseasesorgrare-1 {
+  position: absolute;
+  top: 315px;
+  left: 283px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 266px;
+}
+.httpsrarediseasesorgrare-1 {
+  top: 840px;
+  left: 877px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-mediumslateblue-100);
+  width: 282px;
+}
+.wd {
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: -14px 10px 8px 7px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  height: 1148px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.image-17 {
+  text-decoration: none;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 216px;
+  height: 93px;
+  background-image: url(./public/image-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

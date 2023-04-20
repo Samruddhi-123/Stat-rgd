@@ -1,0 +1,181 @@
+.image-10 {
+    text-decoration: none;
+    position: absolute;
+    top: 34px;
+    left: 28px;
+    width: 182px;
+    height: 97px;
+    background-image: url(./public/image-10@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .about,
+  .httpsmainmohfwgovinsite,
+  .organization {
+    position: absolute;
+    color: inherit;
+    display: inline-block;
+  }
+  .httpsmainmohfwgovinsite {
+    text-decoration: none;
+    top: 1643px;
+    left: 183px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-roboto);
+    width: 859px;
+    height: 57px;
+  }
+  .about,
+  .organization {
+    top: 59px;
+    font-weight: 800;
+  }
+  .about {
+    text-decoration: underline;
+    left: 712px;
+    text-align: center;
+    width: 44px;
+    height: 18px;
+  }
+  .organization {
+    left: 821px;
+    width: 98px;
+    height: 14px;
+  }
+  .news-events2,
+  .organization {
+    text-decoration: underline;
+  }
+  .news-events1 {
+    color: inherit;
+  }
+  .news-events {
+    margin: 0;
+  }
+  .news-events-container {
+    position: absolute;
+    top: 59px;
+    left: 1495px;
+    font-weight: 800;
+    color: var(--font-inherit);
+    display: inline-block;
+    width: 105px;
+    height: 53px;
+  }
+  .people {
+    left: 1399px;
+    text-decoration: underline;
+    color: inherit;
+    width: 49px;
+    height: 18px;
+  }
+  .community-engagement,
+  .people,
+  .programs {
+    position: absolute;
+    top: 59px;
+    font-weight: 800;
+    display: inline-block;
+  }
+  .community-engagement {
+    left: 1170px;
+    color: var(--font-inherit);
+    width: 175px;
+    height: 53px;
+  }
+  .programs {
+    left: 1009px;
+    text-decoration: underline;
+    color: inherit;
+    width: 69px;
+    height: 35px;
+  }
+  .span {
+    color: var(--color-mediumorchid);
+  }
+  .g {
+    color: var(--color-darkslateblue-100);
+  }
+  .rare-genetic-diseases-container {
+    text-decoration: none;
+    position: absolute;
+    top: 181px;
+    left: 195px;
+    font-size: var(--font-size-39xl);
+    font-weight: 800;
+    font-family: var(--font-poppins);
+    display: inline-block;
+    width: 675px;
+    height: 102px;
+    color: var(--color-darkslateblue-200);
+  }
+  .when-your-genes-container {
+    position: absolute;
+    top: 336px;
+    left: 80px;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-roboto);
+    color: inherit;
+    display: inline-block;
+    width: 1535px;
+    height: 624px;
+    text-decoration: none;
+  }
+  .rare-diseases-infographic-1-icon {
+    position: absolute;
+    top: 565px;
+    left: 240px;
+    width: 1226px;
+    height: 800px;
+    object-fit: cover;
+  }
+  .national-policy-for,
+  .tigs-work {
+    position: absolute;
+    top: 1800px;
+    left: 182px;
+    font-size: var(--font-size-21xl);
+    font-weight: 800;
+    font-family: var(--font-poppins);
+    color: var(--color-darkslateblue-200);
+    display: inline-block;
+    width: 276px;
+    height: 80px;
+    text-decoration: none;
+  }
+  .national-policy-for {
+    top: 1396px;
+    width: 906px;
+  }
+  .page-2-child,
+  .page-2-inner,
+  .page-2-item {
+    position: absolute;
+    top: 181px;
+    left: 155px;
+    width: 10px;
+    height: 63px;
+    object-fit: cover;
+  }
+  .page-2-inner,
+  .page-2-item {
+    top: 1377px;
+    left: 150px;
+  }
+  .page-2-inner {
+    top: 1777px;
+    left: 155px;
+  }
+  .page-2 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1930px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-smi);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
