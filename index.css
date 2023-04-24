@@ -28,7 +28,7 @@
   top: 17px;
   left: 16px;
   width: 184px;
-  height: 90px;
+  height: 75px;
   background-image: url(./public/image-1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 .inheritance-pattern1,
 .recent-research,
 .resources {
-  position: absolute;
+  position: fixed;
   right: 55px;
   font-size: var(--font-size-sm);
   font-weight: 600;
@@ -125,9 +125,9 @@
   height: 30px;
 }
 .contents,
-.diagnostics-therapeutics,
-.tata-institute-for {
-  position: absolute;
+.diagnostics-therapeutics
+{
+  position: fixed;
   display: inline-block;
   text-decoration: none;
 }
@@ -141,6 +141,9 @@
   height: 35px;
 }
 .tata-institute-for {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
   top: 2003px;
   left: 441px;
   font-size: var(--font-size-base);
@@ -373,7 +376,7 @@
 }
 .beta-child1,
 .beta-child2,
-.ellipse-icon {
+.beta-child11 {
   position: absolute;
   top: 412px;
   left: 841.1px;
@@ -413,10 +416,74 @@
   top: 472px;
   left: 879.49px;
 }
-.ellipse-icon-textbox{
+.beta-child11-textbox{
+  position: absolute;
   top: 70px;
   left: 296px;
+  width: 13px;
+  height: 13px;
 }
+.beta-child1-textbox{
+  position: absolute;
+  top: 234px;
+  left: 296px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+}
+.beta-child2-textbox{
+  position: absolute;
+  top: 234px;
+  left: 296px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+}
+.beta-child3-textbox{
+  position: absolute;
+  top: 188px;
+  left: 296px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+}
+.beta-child4-textbox{
+  position: absolute;
+  top: 124px;
+  left: 296px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+}
+.beta-child5-textbox{
+  position: absolute;
+  top: 135px;
+  left: 296px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+}
+.beta-child6-textbox{
+  position: absolute;
+  top: 472px;
+  left: 296px;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+}
+
 .surabhisrivastavatigsresin {
   margin: 0;
   color: var(--color-darkblue);
@@ -477,7 +544,7 @@
   height: 442px;
   object-fit: cover;
 }
-.rectangle-textarea {
+.rectangle-text {
   border: 0;
   background-color: var(--color-lavender-100);
   position: absolute;
@@ -528,6 +595,7 @@
   text-align: center;
   display: inline-block;
   width: 138px;
+  font-size: var(--font-size-base)
 }
 .india {
   margin: 0;
@@ -565,11 +633,13 @@
   color: inherit;
   width: 141px;
   text-decoration: none;
+  font-size: var(--font-size-base)
 }
 .chromosome-11 {
   top: 689px;
   left: 718px;
   width: 219px;
+  font-size: var(--font-size-base)
 }
 .age-of-onset,
 .cytogenetic-location {
@@ -608,6 +678,7 @@
   text-align: center;
   width: 179px;
   text-decoration: none;
+  font-size: var(--font-size-base)
 }
 .beta-child8 {
   position: absolute;
@@ -641,6 +712,7 @@
   text-align: center;
   display: inline-block;
   width: 127px;
+  font-size: var(--font-size-base)
 }
 .aditional-links,
 .source-httpsrarediseasesi {
@@ -709,6 +781,7 @@
   top: calc(50% + 52.5px);
   left: calc(50% - 660px);
   height: 25px;
+  font-size: var(--font-inherit);
 }
 .indian-society-of-container {
   bottom: 1072px;
@@ -726,4 +799,35 @@
   font-size: var(--font-size-3xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
+}
+.rectangle-icon {
+  position: fixed;
+  top: 213px;
+  left: 1087px;
+  width: 5px;
+  height: 30px;
+  object-fit: cover;
+}
+.gentigs-top{
+  position: absolute;
+  top: 20px;
+  left: 920px ;
+  font-weight: 600;
+  font-family: var(--font-inherit);
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  width: 219px;
+}
+.beta-inner1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-lavender-100);
+  position: absolute;
+  top: 14px;
+  left: 869px;
+  border-radius: var(--br-lgi);
+  width: 197px;
+  height: 41px;
 }
