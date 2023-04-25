@@ -418,10 +418,13 @@
 }
 .beta-child11-textbox{
   position: absolute;
-  top: 70px;
+  top: 412px;
   left: 296px;
   width: 13px;
   height: 13px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: var(--font-size-base);
 }
 .beta-child1-textbox{
   position: absolute;
@@ -830,4 +833,15 @@
   border-radius: var(--br-lgi);
   width: 197px;
   height: 41px;
+}
+.hide{
+  position: absolute;
+  top: 65px;
+  left: 880px;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  color: inherit;
+  display: inline-block;
+  width: 300px;
+  text-decoration: none;
 }
