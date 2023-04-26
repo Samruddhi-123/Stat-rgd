@@ -1,22 +1,17 @@
-.beta-child,
-.beta-item {
+.beta-child {
   position: absolute;
-  top: 62px;
-  left: 254px;
+  top: 974px;
+  left: 250px;
   border-radius: var(--br-lgi);
   background-color: var(--color-lavender-100);
   width: 816px;
-  height: 520px;
-}
-.beta-item {
-  top: 782px;
-  left: 251px;
   height: 615px;
 }
 .inheritance-pattern {
   position: absolute;
-  top: 803px;
-  left: 580px;
+  top: 990px;
+  left: 287px;
+  font-size: var(--font-size-3xl);
   font-weight: 600;
   display: inline-block;
   width: 261px;
@@ -28,124 +23,124 @@
   top: 17px;
   left: 16px;
   width: 184px;
-  height: 75px;
+  height: 90px;
   background-image: url(./public/image-1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
-.autosomal-dominant,
-.autosomal-recessive,
-.clinical-symptoms,
-.diagnostics {
+.autosomal-recessive {
   position: absolute;
-  top: 880px;
-  left: 762px;
+  top: 1045px;
+  left: 567px;
+  font-size: var(--font-size-3xl);
   font-weight: 600;
   display: inline-block;
-  width: 262px;
+  width: 273px;
   height: 29px;
 }
-.autosomal-recessive,
-.clinical-symptoms,
 .diagnostics {
-  left: 338px;
-  width: 273px;
-}
-.clinical-symptoms,
-.diagnostics {
-  top: 1416px;
-  left: 361px;
+  top: 1625px;
+  left: 363px;
+  font-size: var(--font-size-3xl);
   color: inherit;
   width: 233px;
   height: 34px;
   text-decoration: none;
 }
+.clinical-symptoms,
+.clinical-symptoms1,
+.diagnostics {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.clinical-symptoms1
+{
+  position: fixed;
+  font-weight: 600;
+  display: inline-block;
+}
 .clinical-symptoms {
   top: 70px;
   left: 296px;
+  font-size: var(--font-size-3xl);
+  color: inherit;
   width: 272px;
   height: 35px;
-}
-.clinical-symptoms1,
-.disease-overview,
-.inheritance-pattern1,
-.recent-research,
-.resources {
-  position: fixed;
-  right: 55px;
-  font-size: var(--font-size-sm);
-  font-weight: 600;
-  display: inline-block;
-  width: 188px;
+  text-decoration: none;
 }
 .clinical-symptoms1 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 213px;
-  font-family: var(--font-poppins);
-  color: var(--color-black);
-  text-align: left;
+  top: 204px;
+  right: 62px;
+  width: 188px;
   height: 29px;
 }
-.disease-overview,
 .inheritance-pattern1,
+.prevalence,
 .recent-research,
-.resources {
-  top: 242px;
+.resources,
+.timeline-of-disease {
+  position: fixed;
+  top: 239px;
+  right: 61px;
+  font-weight: 600;
   color: inherit;
+  display: inline-block;
+  width: 188px;
   height: 30px;
   text-decoration: none;
 }
 .inheritance-pattern1,
+.prevalence,
 .recent-research,
 .resources {
-  top: 271px;
+  top: 311px;
+}
+.prevalence,
+.recent-research,
+.resources {
+  top: 276px;
+  right: 62px;
 }
 .recent-research,
 .resources {
-  top: 353px;
+  top: 406px;
+  right: 61px;
 }
 .resources {
-  top: 389px;
+  top: 443px;
   height: 29px;
 }
 .therapeutics {
   margin: 0;
 }
 .diagnostics-therapeutics {
-  top: 305px;
-  right: 54px;
-  font-size: var(--font-size-sm);
+  top: 345px;
+  right: 61px;
   font-weight: 600;
   color: inherit;
   width: 188px;
   height: 30px;
 }
 .contents,
-.diagnostics-therapeutics
-{
+.diagnostics-therapeutics,
+.tata-institute-for {
   position: fixed;
   display: inline-block;
   text-decoration: none;
 }
 .contents {
-  top: 174px;
-  right: 10px;
-  font-size: var(--font-size-sm);
+  top: 162px;
+  right: 17px;
   font-weight: 600;
   color: var(--color-darkblue);
   width: 218px;
   height: 35px;
 }
 .tata-institute-for {
-  position: absolute;
-  display: inline-block;
-  text-decoration: none;
-  top: 2003px;
-  left: 441px;
+  top: 2214px;
+  left: 528px;
   font-size: var(--font-size-base);
   color: inherit;
   text-align: center;
@@ -157,8 +152,8 @@
 .dashboard-development-container {
   text-decoration: none;
   position: absolute;
-  top: 1975px;
-  left: 12px;
+  top: 2191px;
+  left: 15px;
   font-size: var(--font-size-base);
   display: inline-block;
   width: 462px;
@@ -166,8 +161,8 @@
   color: inherit;
 }
 .concept-lead-container {
-  top: 1998px;
-  left: 12px;
+  top: 2214px;
+  left: 15px;
   font-size: var(--font-size-base);
   width: 392px;
   height: 24px;
@@ -181,8 +176,8 @@
   display: inline-block;
 }
 .data-compilation-rgd-container {
-  top: 1951px;
-  left: 12px;
+  top: 2167px;
+  left: 15px;
   font-size: var(--font-size-base);
   width: 392px;
   height: 24px;
@@ -196,8 +191,8 @@
 }
 .hematologic-diagnosis-followed {
   position: absolute;
-  top: 1485px;
-  left: 270px;
+  top: 1694px;
+  left: 272px;
   font-size: var(--font-size-base);
   display: inline-block;
   width: 321px;
@@ -250,13 +245,14 @@
 }
 .allogeneic-hematopoietic-proge-container {
   position: absolute;
-  top: 1485px;
-  left: 667px;
+  top: 1694px;
+  left: 669px;
   font-size: var(--font-size-base);
   display: inline-block;
   width: 316px;
 }
-.beta-inner {
+.beta-inner,
+.beta-item {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -268,6 +264,12 @@
   width: 197px;
   height: 43px;
 }
+.beta-inner {
+  background-color: var(--color-lavender-100);
+  top: 14px;
+  left: 869px;
+  height: 41px;
+}
 .alpha-thalassemia,
 .beta-thalassemia1,
 .hemophilia-a,
@@ -277,7 +279,6 @@
   position: absolute;
   top: 223px;
   left: 61px;
-  font-size: var(--font-size-sm);
   font-weight: 600;
   color: inherit;
 }
@@ -326,7 +327,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-sm);
-  font-size: var(--font-size-sm);
   color: var(--color-darkblue);
 }
 .dashboard1 {
@@ -351,7 +351,6 @@
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-sm);
-  font-size: var(--font-size-sm);
   color: var(--color-darkblue);
 }
 .dashboard2 {
@@ -370,8 +369,8 @@
   position: absolute;
   top: 73px;
   left: 787.88px;
-  width: 162.27px;
-  height: 490px;
+  width: 163px;
+  height: 492.19px;
   object-fit: cover;
 }
 .beta-child1,
@@ -413,8 +412,8 @@
   left: 862.04px;
 }
 .beta-child6 {
-  top: 472px;
-  left: 879.49px;
+  top: 500px;
+  left: 900px;
 }
 .beta-child11-textbox{
   position: absolute;
@@ -486,81 +485,53 @@
   text-decoration: none;
   font-size: var(--font-size-base);
 }
-
 .surabhisrivastavatigsresin {
   margin: 0;
   color: var(--color-darkblue);
 }
 .for-queries-container,
+.recent-research1,
 .therapeutics1 {
+  text-decoration: none;
   position: absolute;
   color: inherit;
   display: inline-block;
-  text-decoration: none;
 }
 .for-queries-container {
-  top: 1981px;
-  left: 950px;
+  top: 2191px;
+  left: 1051px;
   font-size: var(--font-size-base);
-  width: 309px;
-  height: 54px;
+  width: 448px;
+  height: 55px;
+}
+.recent-research1,
+.therapeutics1 {
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
 }
 .therapeutics1 {
-  top: 1416px;
-  left: 751px;
-  font-weight: 600;
+  top: 1625px;
+  left: 753px;
   width: 247px;
   height: 35px;
 }
-.beta-thalassemia-d-icon {
-  position: absolute;
-  top: 914px;
-  left: 679px;
-  width: 369px;
-  height: 442px;
-  object-fit: cover;
-}
-.rectangle-main {
-  position: absolute;
-  top: 1680px;
-  left: 244px;
-  border-radius: var(--br-lgi);
-  background-color: var(--color-lavender-100);
-  width: 765px;
-  height: 109px;
-}
 .recent-research1 {
-  text-decoration: none;
-  position: absolute;
-  top: 1689px;
-  left: 270px;
-  font-weight: 600;
-  color: inherit;
-  display: inline-block;
+  top: 1898px;
+  left: 272px;
   width: 350px;
 }
 .beta-thalassemia-r-icon {
   position: absolute;
-  top: 914px;
-  left: 268px;
-  width: 392.33px;
-  height: 442px;
+  top: 1089px;
+  left: 474px;
+  width: 410px;
+  height: 452px;
   object-fit: cover;
-}
-.rectangle-text {
-  border: 0;
-  background-color: var(--color-lavender-100);
-  position: absolute;
-  top: 1808px;
-  left: 244px;
-  border-radius: var(--br-lgi);
-  width: 765px;
-  height: 109px;
 }
 .resources1 {
   position: absolute;
-  top: 1821px;
-  left: 270px;
+  top: 2030px;
+  left: 272px;
   font-size: var(--font-size-xl);
   font-weight: 600;
   color: inherit;
@@ -575,9 +546,9 @@
 .httpswwwcdcgovncbdddhem {
   text-decoration: none;
   position: absolute;
-  top: 1849px;
-  left: 266px;
-  font-size: var(--font-size-sm);
+  top: 2058px;
+  left: 268px;
+  font-size: var(--font-inherit);
   font-family: var(--font-inherit);
   color: var(--color-mediumslateblue-200);
   display: inline-block;
@@ -586,23 +557,25 @@
 }
 .beta-child7 {
   position: absolute;
-  top: 1422px;
-  left: 637.5px;
+  top: 1631px;
+  left: 639.5px;
   width: 1px;
   height: 177px;
 }
+.in-100000,
+.india {
+  font-size: var(--font-size-base);
+}
 .in-100000 {
   position: absolute;
-  top: 685px;
-  left: 454px;
+  top: 901px;
+  left: 726px;
   text-align: center;
   display: inline-block;
-  width: 138px;
-  font-size: var(--font-size-base)
+  width: 303px;
 }
 .india {
   margin: 0;
-  font-size: var(--font-size-base);
 }
 .prevalence-india-txt-container {
   line-break: anywhere;
@@ -611,121 +584,61 @@
 .prevalence-global,
 .prevalence-india {
   position: absolute;
-  top: 594px;
-  left: 224px;
+  top: 813px;
+  left: 346px;
   font-weight: 600;
   text-align: center;
   display: flex;
   align-items: center;
-  width: 249px;
+  width: 219px;
   height: 75px;
+  font-size: var(--font-size-3xl);
 }
 .prevalence-global {
-  left: 400px;
-  width: 250px;
+  top: 810px;
+  left: 609px;
+  width: 546px;
 }
 .chromosome-11,
+.globin,
 .in-100 {
-  position: absolute;
+  font-size: var(--font-size-base);
   text-align: center;
-  display: inline-block;
 }
 .in-100 {
-  top: 685px;
-  left: 268px;
+  position: absolute;
+  top: 895px;
+  left: 303px;
   color: inherit;
-  width: 141px;
+  display: inline-block;
+  width: 306px;
   text-decoration: none;
-  font-size: var(--font-size-base)
+}
+.chromosome-11,
+.globin {
+  top: 1273px;
 }
 .chromosome-11 {
-  top: 689px;
-  left: 718px;
-  width: 219px;
-  font-size: var(--font-size-base)
-}
-.age-of-onset,
-.cytogenetic-location {
-  top: 605px;
-  font-weight: 600;
-  text-align: center;
-  width: 174px;
-}
-.cytogenetic-location {
   position: absolute;
-  left: 740px;
+  left: 666px;
   display: inline-block;
-  height: 78px;
-}
-.age-of-onset {
-  left: 915px;
-  height: 29px;
-}
-.age-of-onset,
-.genes,
-.globin {
-  position: absolute;
-  display: inline-block;
-}
-.genes {
-  top: 604px;
-  left: 632px;
-  font-weight: 600;
-  width: 215px;
-  height: 30px;
+  width: 303px;
 }
 .globin {
-  top: 689px;
-  left: 586px;
+  left: 454px;
   color: inherit;
-  text-align: center;
-  width: 179px;
-  text-decoration: none;
-  font-size: var(--font-size-base)
-}
-.beta-child8 {
-  position: absolute;
-  top: 644px;
-  left: 424.5px;
-  width: 1px;
-  height: 94px;
-}
-.beta-child10,
-.beta-child0,
-.beta-child9 {
-  position: absolute;
-  top: 652px;
-  left: 597.5px;
-  width: 1px;
-  height: 94px;
-}
-.beta-child10,
-.beta-child0 {
-  top: 657px;
-  left: 738.5px;
-}
-.beta-child0 {
-  top: 655px;
-  left: 934.5px;
-}
-.months {
-  position: absolute;
-  top: 691px;
-  left: 935px;
-  text-align: center;
-  display: inline-block;
-  width: 127px;
-  font-size: var(--font-size-base)
+  width: 218px;
 }
 .aditional-links,
+.globin,
 .source-httpsrarediseasesi {
   position: absolute;
   display: inline-block;
   text-decoration: none;
 }
 .source-httpsrarediseasesi {
-  top: 1372px;
-  left: 701px;
+  top: 1568px;
+  left: 760px;
   font-size: 8px;
   color: inherit;
   width: 395px;
@@ -733,7 +646,6 @@
 .aditional-links {
   bottom: 1245px;
   left: 11px;
-  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-darkblue);
   text-align: center;
@@ -744,79 +656,133 @@
   margin: 0;
   padding-left: var(--padding-lgi);
 }
-.online-mendelian-inheritance-container,
-.organization-for-rare-container {
+.online-mendelian-inheritance-container {
   text-decoration: none;
   position: absolute;
   bottom: 1210px;
   left: 15px;
-  font-size: var(--font-size-sm);
-  font-weight: 600;
-  font-family: var(--font-inherit);
   color: inherit;
   display: inline-block;
   width: 208px;
   height: 35px;
 }
+.indian-policy-for-container,
+.online-mendelian-inheritance-container,
 .organization-for-rare-container {
+  font-size: var(--font-inherit);
+  font-weight: 600;
+  font-family: var(--font-inherit);
+}
+.organization-for-rare-container {
+  text-decoration: none;
+  position: absolute;
   bottom: 1150px;
+  left: 15px;
+  color: inherit;
+  display: inline-block;
   width: 183px;
   height: 36px;
 }
 .indian-policy-for-container {
   bottom: 999px;
   left: 17px;
+  width: 219px;
   height: 49px;
 }
 .gentigs,
 .indian-policy-for-container,
-.indian-society-of-container {
+.indian-society-of-container,
+.tigs-work {
   text-decoration: none;
   position: absolute;
-  font-size: var(--font-size-sm);
-  font-weight: 600;
-  font-family: var(--font-inherit);
   color: inherit;
   display: inline-block;
+}
+.tigs-work {
+  bottom: 938px;
+  left: 18px;
+  font-size: var(--font-inherit);
+  font-weight: 800;
+  font-family: var(--font-inherit);
   width: 219px;
+  height: 49px;
+}
+.gentigs,
+.indian-society-of-container {
+  font-weight: 600;
 }
 .gentigs {
-  top: calc(50% + 52.5px);
-  left: calc(50% - 660px);
+  top: calc(50% - 1110px);
+  left: calc(50% + 247px);
+  font-size: var(--font-size-3xl);
+  width: 99px;
   height: 25px;
-  font-size: var(--font-inherit);
 }
 .indian-society-of-container {
   bottom: 1072px;
   left: 15px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  width: 219px;
   height: 48px;
+}
+
+.rectangle-icon {
+  position:fixed;
+  top: 194px;
+  left: 1087px;
+  width: 5px;
+  height: 30px;
+  object-fit: cover;
+}
+.image-14-icon {
+  position: absolute;
+  top: 593px;
+  left: 244px;
+  border-radius: var(--br-lg);
+  width: 837px;
+  height: 188px;
+}
+.timeline-of-disease1 {
+  position: absolute;
+  top: 574px;
+  left: 283px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 292px;
+  height: 29px;
+}
+.source-httpsrarediseasesi1 {
+  text-decoration: none;
+  position: absolute;
+  top: 772px;
+  left: 760px;
+  font-size: 8px;
+  color: inherit;
+  display: inline-block;
+  width: 395px;
 }
 .beta {
   position: relative;
   background-color: var(--color-white);
   box-shadow: -14px 10px 8px 7px rgba(0, 0, 0, 0.04);
   width: 100%;
-  height: 2061px;
+  height: 2260px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-sm);
   color: var(--color-black);
   font-family: var(--font-poppins);
-}
-.rectangle-icon {
-  position: fixed;
-  top: 213px;
-  left: 1087px;
-  width: 5px;
-  height: 30px;
-  object-fit: cover;
 }
 .gentigs-top{
   position: absolute;
   top: 20px;
-  left: 920px ;
+  left: 920px;
   font-weight: 600;
   font-family: var(--font-inherit);
+  font-size: var(--font-size-3xl);
   color: inherit;
   display: inline-block;
   text-decoration: none;
