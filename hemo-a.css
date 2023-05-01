@@ -3,10 +3,6 @@
   position: absolute;
   top: 62px;
   left: 254px;
-  border-radius: var(--br-lgi);
-  background-color: var(--color-lavender-100);
-  width: 816px;
-  height: 520px;
 }
 .hemo-a-item {
   top: 782px;
