@@ -124,13 +124,13 @@
   height: 30px;
 }
 .contents,
-.diagnostics-therapeutics,
+.diagnostics-therapeutics
 {
   position: fixed;
   display: inline-block;
   text-decoration: none;
 }
-.tata-institute-for {
+.tata-institute-for{
 position: absolute;
 display: inline-block;
 text-decoration: none;
