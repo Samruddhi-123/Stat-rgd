@@ -471,16 +471,6 @@ text-decoration: none;
   text-decoration: none;
   font-size: var(--font-size-base);
 }
-.beta-child5-textbox{
-  position: absolute;
-  top: 135px;
-  left: 296px;
-  width: 13px;
-  height: 13px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: var(--font-size-base);
-}
 .beta-child6-textbox{
   position: absolute;
   top: 472px;
