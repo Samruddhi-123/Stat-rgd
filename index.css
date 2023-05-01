@@ -805,3 +805,56 @@ text-decoration: none;
   width: 300px;
   text-decoration: none;
 }
+.link1
+{
+  margin: 0;
+  padding-left: var(--padding-base);
+  text-decoration: none;
+  position: absolute;
+  top: 1710px;
+  left: 270px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inherit);
+  color: var(--color-mediumslateblue-200);
+  display: inline-block;
+  height: 20px;
+}
+.link2{
+  margin: 0;
+  padding-left: var(--padding-base);
+  text-decoration: none;
+  position: absolute;
+  top: 1730px;
+  left: 270px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inherit);
+  color: var(--color-mediumslateblue-200);
+  display: inline-block;
+  height: 20px;
+}
+.link3{
+  margin: 0;
+  padding-left: var(--padding-base);
+  text-decoration: none;
+  position: absolute;
+  top: 1750px;
+  left: 270px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inherit);
+  color: var(--color-mediumslateblue-200);
+  display: inline-block;
+  height: 20px;
+}
+.link4{
+  margin: 0;
+  padding-left: var(--padding-base);
+  text-decoration: none;
+  position: absolute;
+  top: 1770px;
+  left: 270px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inherit);
+  color: var(--color-mediumslateblue-200);
+  display: inline-block;
+  height: 20px;
+}
