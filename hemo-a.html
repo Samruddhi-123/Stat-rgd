@@ -163,7 +163,21 @@
                 TIGS Work
             </ul>
         </a>
-        <a class="gentigs" href="https://tigs.res.in/programs/rare-genetic-diseases/" target="_blank">GENTIGS</a>
+        <style>
+          .hide {
+            display: none;
+          }
+              
+          .gentigs-top:hover + .hide {
+            display: block;
+            color: rgb(94, 94, 94);
+          }
+        </style>
+        <button class="beta-inner1"></button>
+        <a class="beta-inner1" href="https://tigs.res.in/programs/rare-genetic-diseases/" target="_blank"></a>
+        <div class="gentigs-top">GENTIGS</div>
+        <div class="hide">GENTIGS is a databse</div>
+          
         <a class="indian-society-of-container" href="https://www.ishbt.com/" target="_blank">
             <ul class="online-mendelian-inheritance">
                 Indian Society of Hematology and Blood Transfusion (ISHBT)
@@ -177,25 +191,150 @@
             https://rarediseases.info.nih.gov/diseases/871/beta-thalassemia</a>
         <a class="hemophilia-a1" href="https://rarediseases.info.nih.gov/diseases/871/beta-thalassemia"
             target="_blank">Hemophilia A</a>
-        <img class="ellipse-icon" alt="" src="Ellipse 1.png" />
-
-        <img class="hemo-a-child2" alt="" src="Ellipse 1.png" />
-
-        <img class="hemo-a-child3" alt="" src="Ellipse 1.png" />
-
-        <img class="hemo-a-child4" alt="" src="Ellipse 1.png" />
-
-        <img class="hemo-a-child5" alt="" src="Ellipse 1.png" />
-
-        <img class="hemo-a-child6" alt="" src="Ellipse 1.png" />
-
-        <img class="image-15-icon" alt="" src="hemo-a timeline" />
-
-        <img class="hemophilia-a-2" alt="" src="hemo-a IP" />
-
-        <div class="chromosome-x">Chromosome X</div>
-        <a class="f8">F8</a>
+            <div class="group flex ellipse-icon">
+              <img class="hover-circle" alt="" src="" />
+              <div
+                class="transition-all ease-in-out duration-400 absolute translate-y-2 bg-[#333]/[0.6] opacity-0 group-hover:opacity-100 rounded-md p-2 text-white text-center">
+              </div>
+            </div>
+            <style>
+              .show {
+                display: block;
+              }
         
+              .hide {
+                display: none;
+              }
+            </style>
+        
+        
+            <div id="text" class="hemo-a-child5-textbox hide"
+              style="background: rgb(235,235,235); padding: 5px 20px; width: 155px; height: fit-content; border-radius: 5px;">
+              <p>Bleeding into the joints</p>
+            </div>
+            <img class="hover-circle hemo-a-child5" alt="" src="Ellipse 1.png" />
+        
+            <div id="text" class="hemo-a-child6-textbox hide"
+              style="background: rgb(235,235,235); padding: 5px 20px; width: 155px; height: fit-content; border-radius: 5px;">
+              <p>Bleeding into the skin</p>
+            </div>
+            <img class="hover-circle hemo-a-child6" alt="" src="Ellipse 1.png" />
+        
+            <div id="text" class=" hemo-a-child7-textbox hide"
+              style="background: rgb(235,235,235); padding: 5px 20px; width: 150px; height: fit-content; border-radius: 5px;">
+              <p>Blood in the urine or stool</p>
+            </div>
+            <img class="hover-circle hemo-a-child7" alt="" src="Ellipse 1.png" />
+        
+            <div id="text" class=" hemo-a-child8-textbox hide"
+              style="background: rgb(235,235,235); padding: 5px 20px; width: 150px; height: fit-content; border-radius: 5px;">
+              <p>Frequent and hard-to-stop nosebleeds</p>
+            </div>
+            <img class="hover-circle hemo-a-child8" alt="" src="Ellipse 1.png" />
+        
+            <div id="text" class=" hemo-a-child9-textbox hide"
+              style="background: rgb(235,235,235); padding: 5px 20px; width: 150px; height: fit-content; border-radius: 5px;">
+              <p>Bleeding of the mouth and gums</p>
+            </div>
+            <img class="hover-circle hemo-a-child9" alt="" src="Ellipse 1.png" />
+        
+            <div id="text" class=" hemo-a-child10-textbox hide"
+              style="background: rgb(235,235,235); padding: 5px 20px; width: 150px; height: fit-content; border-radius: 5px;">
+              <p>Bleeding in the head of an infant</p>
+            </div>
+            <img class="hover-circle hemo-a-child10" alt="" src="Ellipse 1.png" />
+        
+            <script lang="JavaScript">
+              const dot1 = document.querySelector(".hemo-a-child5");
+              const dot1Text = document.querySelector(".hemo-a-child5-textbox");
+        
+              const dot2 = document.querySelector(".hemo-a-child6");
+              const dot2Text = document.querySelector(".hemo-a-child6-textbox");
+        
+              const dot3 = document.querySelector(".hemo-a-child7");
+              const dot3Text = document.querySelector(".hemo-a-child7-textbox");
+        
+              const dot4 = document.querySelector(".hemo-a-child8");
+              const dot4Text = document.querySelector(".hemo-a-child8-textbox");
+        
+              const dot5 = document.querySelector(".hemo-a-child9");
+              const dot5Text = document.querySelector(".hemo-a-child9-textbox");
+        
+              const dot6 = document.querySelector(".hemo-a-child10");
+              const dot6Text = document.querySelector(".hemo-a-child10-textbox");
+        
+              dot1.addEventListener('mouseover', func1)
+              dot1.addEventListener('mouseout', func2)
+        
+              dot2.addEventListener('mouseover', func3)
+              dot2.addEventListener('mouseout', func4)
+        
+              dot3.addEventListener('mouseover', func5)
+              dot3.addEventListener('mouseout', func6)
+        
+              dot4.addEventListener('mouseover', func7)
+              dot4.addEventListener('mouseout', func8)
+        
+              dot5.addEventListener('mouseover', func9)
+              dot5.addEventListener('mouseout', func10)
+        
+              dot6.addEventListener('mouseover', func11)
+              dot6.addEventListener('mouseout', func12)
+        
+        
+              function func1() {
+                dot1Text.classList.remove('hide')
+                dot1Text.classList.add('show')
+              }
+              function func2() {
+                dot1Text.classList.remove('show')
+                dot1Text.classList.add('hide')
+              }
+              function func3() {
+                dot2Text.classList.remove('hide')
+                dot2Text.classList.add('show')
+              }
+              function func4() {
+                dot2Text.classList.remove('show')
+                dot2Text.classList.add('hide')
+              }
+              function func5() {
+                dot3Text.classList.remove('hide')
+                dot3Text.classList.add('show')
+              }
+              function func6() {
+                dot3Text.classList.remove('show')
+                dot3Text.classList.add('hide')
+              }
+              function func7() {
+                dot4Text.classList.remove('hide')
+                dot4Text.classList.add('show')
+              }
+              function func8() {
+                dot4Text.classList.remove('show')
+                dot4Text.classList.add('hide')
+              }
+              function func9() {
+                dot5Text.classList.remove('hide')
+                dot5Text.classList.add('show')
+              }
+              function func10() {
+                dot5Text.classList.remove('show')
+                dot5Text.classList.add('hide')
+              }
+              function func11() {
+                dot6Text.classList.remove('hide')
+                dot6Text.classList.add('show')
+              }
+              function func12() {
+                dot6Text.classList.remove('show')
+                dot6Text.classList.add('hide')
+              }
+            </script>
+
+        <img class="hemophilia-a-2" alt="" src="hemo-a IP.png" />
+
+      
         <img class="rectangle-icon" alt="" src="content-bar.png" />
 
     <img class="image-14-icon" alt="" src="hemo-a timeline.png" />
